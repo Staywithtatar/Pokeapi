@@ -31,7 +31,7 @@ function PokeInfo() {
   if (error) {
     return (
       <div className='min-h-screen bg-gradient-to-b from-purple-900 to-orange-300 p-8'>
-        <Link href="/" className='inline-block px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors shadow-lg'>
+        <Link href="/pokemon" className='inline-block px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors shadow-lg'>
           Go Back
         </Link>
         <div className='text-center mt-10'>
@@ -45,7 +45,7 @@ function PokeInfo() {
 
   return (
     <div className='min-h-screen bg-gradient-to-b from-purple-900 to-orange-300 p-8'>
-      <Link href="/" className='inline-block px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors shadow-lg'>
+      <Link href="/pokemon" className='inline-block px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors shadow-lg'>
         Go Back
       </Link>
       <div className='flex justify-center items-center mt-10'>
